@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudService1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="5" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="gvdbstorage_AzureStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=gvdbstorage;AccountKey=U0+1N3UoVoCkdYBfmdwh2nyijFg6aSjR69j6JHwp3N1h6SfRpwSvnCMO8wuzDdmz+sXud6Pk0yy3o/8b7eyhtg==;EndpointSuffix=core.windows.net" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
