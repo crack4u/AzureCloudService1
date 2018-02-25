@@ -4,7 +4,7 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="gvdbstorage_AzureStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=gvdbstorage;AccountKey=U0+1N3UoVoCkdYBfmdwh2nyijFg6aSjR69j6JHwp3N1h6SfRpwSvnCMO8wuzDdmz+sXud6Pk0yy3o/8b7eyhtg==;EndpointSuffix=core.windows.net" />
+      <Setting name="gvdbstorage_AzureStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=gvdbstorage;AccountKey=blabla;EndpointSuffix=core.windows.net" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
